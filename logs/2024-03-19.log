@@ -1,0 +1,1112 @@
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:00:16.256Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:00:20.453Z'
+}
+{
+  message: "ENOENT: no such file or directory, open 'C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\images\\bbd4f251-2d5c-4699-8e70-45ed2f5bfc18'",
+  err: { kind: 'UNAUTHORIZED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feed/post/65f8d108a508b380a40b83bd',
+    body: [Object: null prototype] {
+      title: 'Deneme2',
+      content: 'Deneme içeriği',
+      image: 'images/557cf1d4-ec42-40d9-ad47-168edd203e4d'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T00:00:21.015Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:01:02.638Z'
+}
+{
+  message: "ENOENT: no such file or directory, open 'C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\images\\9b17997e-b67b-431b-97ee-3f0dc82cf995'",
+  err: { kind: 'UNAUTHORIZED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feed/post/65f8d108a508b380a40b83bd',
+    body: [Object: null prototype] {
+      title: 'Deneme2',
+      content: 'Deneme içeriği',
+      image: 'images/557cf1d4-ec42-40d9-ad47-168edd203e4d'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T00:01:04.560Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:01:47.026Z'
+}
+{
+  message: "ENOENT: no such file or directory, open 'C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\images\\14d7079b-ce4d-4181-bd83-8e11d5803608'",
+  err: { kind: 'UNAUTHORIZED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feed/post/65f8d108a508b380a40b83bd',
+    body: [Object: null prototype] {
+      title: 'Deneme2',
+      content: 'Deneme içeriği',
+      image: 'images/557cf1d4-ec42-40d9-ad47-168edd203e4d'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T00:01:48.712Z'
+}
+{
+  message: "ENOENT: no such file or directory, open 'C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\images\\61371d60-4460-4022-aecf-afd4ba2fa481'",
+  err: { kind: 'UNAUTHORIZED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feed/post/65f8d108a508b380a40b83bd',
+    body: [Object: null prototype] {
+      title: 'Deneme2',
+      content: 'Deneme içeriği',
+      image: 'images/557cf1d4-ec42-40d9-ad47-168edd203e4d'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T00:01:55.670Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:02:06.393Z'
+}
+{
+  message: "ENOENT: no such file or directory, open 'C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\images\\f3c71d75-5ebc-433c-b7a5-10417f519b31'",
+  err: { kind: 'UNAUTHORIZED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feed/post/65f8d108a508b380a40b83bd',
+    body: [Object: null prototype] {
+      title: 'Deneme2',
+      content: 'Deneme içeriği',
+      image: 'images/557cf1d4-ec42-40d9-ad47-168edd203e4d'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T00:02:07.886Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:02:25.067Z'
+}
+{
+  message: "ENOENT: no such file or directory, open 'C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\images\\f3d60017-2f22-4efc-bdf6-44649a319f07'",
+  err: { kind: 'UNAUTHORIZED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feed/post/65f8d108a508b380a40b83bd',
+    body: [Object: null prototype] {
+      title: 'Deneme2',
+      content: 'Deneme içeriği',
+      image: 'images/557cf1d4-ec42-40d9-ad47-168edd203e4d'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T00:02:25.407Z'
+}
+{
+  message: "ENOENT: no such file or directory, open 'C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\images\\10821f09-2552-49bb-9248-c84594d8d54e'",
+  err: { kind: 'UNAUTHORIZED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feed/post/65f8d108a508b380a40b83bd',
+    body: [Object: null prototype] {
+      title: 'Deneme2',
+      content: 'Deneme içeriği',
+      image: 'images/557cf1d4-ec42-40d9-ad47-168edd203e4d'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T00:02:29.031Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:02:41.103Z'
+}
+{
+  message: "ENOENT: no such file or directory, open 'C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\images\\3c438449-70e1-4e42-90c7-635b486cd18e'",
+  err: { kind: 'UNAUTHORIZED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feed/post/65f8d108a508b380a40b83bd',
+    body: [Object: null prototype] {
+      title: 'Deneme2',
+      content: 'Deneme içeriği',
+      image: 'images/557cf1d4-ec42-40d9-ad47-168edd203e4d'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T00:02:45.546Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:02:48.333Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:02:53.616Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:03:49.189Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:04:03.212Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:09:50.262Z'
+}
+{
+  message: 'Post with id: ${id}',
+  err: { kind: 'NOT_FOUND', source: 'feed.service.readById' },
+  req: {
+    path: 'PUT /v1/feed/post/65f8d68a68a39c6611a2fcc9',
+    body: [Object: null prototype] {
+      title: 'Deneme2222',
+      content: 'Deneme içeriği',
+      image: 'images/dcb82450-bcb6-4c26-9a77-889d81b37977'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T00:10:14.269Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:11:30.822Z'
+}
+{
+  message: 'title is not defined',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at updatePost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:110:22)'
+  },
+  req: {
+    path: 'PUT /v1/feed/post/65f8d84cd3e5cff587ee0aee',
+    body: [Object: null prototype] {
+      title: 'Deneme2222',
+      content: 'Deneme içeriği',
+      image: 'images/37d65f7e-d6e6-4cd8-ac2d-7dd85edc5033'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T00:12:47.316Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:13:19.611Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:14:50.348Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:16:07.491Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:19:37.980Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:42:25.998Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:42:31.395Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:42:43.525Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:43:02.169Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:43:13.798Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:43:27.310Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:43:44.320Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:44:05.263Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:44:40.068Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:45:00.841Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:45:06.741Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:45:39.236Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:45:44.796Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:46:05.357Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:46:31.417Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:47:44.968Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:47:58.830Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:48:04.409Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:49:08.893Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:49:16.579Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:50:07.105Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:50:24.762Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:52:09.777Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:52:15.623Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:52:41.598Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:56:20.128Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:56:41.469Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:56:55.680Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:56:58.489Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:57:45.265Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T00:57:58.429Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:00:09.366Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:00:25.834Z'
+}
+{
+  message: "Cannot read properties of null (reading 'password')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at login (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\credentials\\credentials.service.js:11:69)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: '@dene',
+      password: 'c7b4e21815cc3a87cde95ad2dfd2446b6df04eeb50f68c6ba4b43f47ab115945'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:00:50.041Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:01:13.708Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:01:16.560Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:01:31.831Z'
+}
+{
+  message: "Cannot read properties of null (reading 'password')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at login (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\credentials\\credentials.service.js:11:69)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: '@dene',
+      password: 'c7b4e21815cc3a87cde95ad2dfd2446b6df04eeb50f68c6ba4b43f47ab115945'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:01:33.987Z'
+}
+{
+  message: "Cannot read properties of null (reading 'password')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at login (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\credentials\\credentials.service.js:11:69)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: '@dene',
+      password: '90d2de36b695a1e313f5e0a418d36438a6b68f63a4b87917e4d3b108431b2ffc'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:02:07.423Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:02:16.565Z'
+}
+{
+  message: "Cannot read properties of null (reading 'password')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at login (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\credentials\\credentials.service.js:11:69)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'dene',
+      password: '90d2de36b695a1e313f5e0a418d36438a6b68f63a4b87917e4d3b108431b2ffc'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:02:18.992Z'
+}
+{
+  message: "Cannot read properties of null (reading 'password')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at login (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\credentials\\credentials.service.js:11:69)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'dene',
+      password: '90d2de36b695a1e313f5e0a418d36438a6b68f63a4b87917e4d3b108431b2ffc'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:02:22.430Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:02:48.124Z'
+}
+{
+  message: "Cannot read properties of null (reading 'password')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at login (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\credentials\\credentials.service.js:12:69)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'dene',
+      password: '90d2de36b695a1e313f5e0a418d36438a6b68f63a4b87917e4d3b108431b2ffc'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:02:50.161Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:03:10.453Z'
+}
+{
+  message: "Cannot read properties of null (reading 'password')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at login (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\credentials\\credentials.service.js:11:69)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'deneme@gmail.com',
+      password: 'b5666f081c2f08892154cfb7c2705ed5efa2dbf7c6126c741d49eeec6ffec8f2'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:03:18.692Z'
+}
+{
+  message: 'User already exist',
+  err: { kind: 'CONFLICT', source: 'credentials.service.create' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'deneme@deneme.com',
+      password: 'b5666f081c2f08892154cfb7c2705ed5efa2dbf7c6126c741d49eeec6ffec8f2'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:03:22.224Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:05:09.642Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:06:09.119Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:06:16.171Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:06:31.490Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:06:39.292Z'
+}
+{
+  message: 'Invalid credentials',
+  err: { kind: 'FORBIDDEN', source: 'credentials.service.login' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'deneme@deneme.com',
+      password: 'b5666f081c2f08892154cfb7c2705ed5efa2dbf7c6126c741d49eeec6ffec8f2'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:07:05.698Z'
+}
+{
+  message: 'Invalid credentials',
+  err: { kind: 'FORBIDDEN', source: 'credentials.service.login' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'deneme2@gmail.com',
+      password: 'b5666f081c2f08892154cfb7c2705ed5efa2dbf7c6126c741d49eeec6ffec8f2'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:07:45.921Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:08:04.315Z'
+}
+{
+  message: 'Invalid credentials',
+  err: { kind: 'FORBIDDEN', source: 'credentials.service.login' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'deneme2@gmail.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:08:13.177Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:08:33.727Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:08:37.021Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:08:38.821Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:08:51.733Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:09:08.303Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:09:09.541Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /' },
+  level: 'warn',
+  timestamp: '2024-03-19T01:09:58.015Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:11:24.493Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:11:32.990Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:11:53.325Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:12:48.864Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:13:09.084Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:13:31.241Z'
+}
+{
+  message: 'Invalid credentials',
+  err: { kind: 'FORBIDDEN', source: 'credentials.service.login' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'deneme2@gmail.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:13:35.136Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:13:57.356Z'
+}
+{
+  message: 'Invalid credentials',
+  err: { kind: 'FORBIDDEN', source: 'credentials.service.login' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'deneme2@gmail.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:14:00.429Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:14:12.018Z'
+}
+{
+  message: 'Invalid credentials',
+  err: { kind: 'FORBIDDEN', source: 'credentials.service.login' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'deneme2@gmail.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:14:14.573Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:14:39.799Z'
+}
+{
+  message: 'Invalid credentials',
+  err: { kind: 'FORBIDDEN', source: 'credentials.service.login' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'deneme2@gmail.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:14:42.157Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:14:55.863Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:15:03.773Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:18:39.941Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:19:13.819Z'
+}
+{
+  message: 'User not found!',
+  err: { kind: 'NOT_FOUND', source: 'credentials.service.userGetByEmail' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: '@denemil.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:19:20.130Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:22:35.456Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:27:43.800Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:34:32.985Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:34:35.684Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:35:37.623Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:36:06.866Z'
+}
+{
+  message: 'email.isEmail is not a function',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at loginValidator (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\credentials\\credentials.validator.js:17:6)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'denemil.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:36:47.755Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:37:28.449Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:42:13.085Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:45:28.074Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:54:11.137Z'
+}
+{
+  message: 'email.isEmail is not a function',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at loginValidator (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\credentials\\credentials.validator.js:17:6)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'denemil.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:54:16.307Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:54:34.530Z'
+}
+{
+  message: 'User not found!',
+  err: { kind: 'NOT_FOUND', source: 'credentials.service.userGetByEmail' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'denemil.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:54:37.541Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:55:11.662Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:55:18.880Z'
+}
+{
+  message: 'User not found!',
+  err: { kind: 'NOT_FOUND', source: 'credentials.service.userGetByEmail' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'denemil.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:55:20.644Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:55:33.423Z'
+}
+{
+  message: 'User not found!',
+  err: { kind: 'NOT_FOUND', source: 'credentials.service.userGetByEmail' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: 'denemil.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:55:35.258Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:55:41.847Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:56:20.763Z'
+}
+{
+  message: 'Validation Failed',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at validateRequest (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\expressValidator\\validators.js:6:19)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: '@denemil.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:56:24.873Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T01:56:47.405Z'
+}
+{
+  message: 'Validation Failed.',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at validateRequest (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\expressValidator\\validators.js:6:19)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: '@denemil.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T01:56:49.526Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:31:54.015Z'
+}
+{
+  message: 'Validation Failed.',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at validateRequest (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\expressValidator\\validators.js:6:19)'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: '@denemil.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T23:32:50.977Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:33:41.667Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:37:37.646Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:37:42.917Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:37:54.808Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:38:00.074Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:39:11.262Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:39:53.427Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:40:06.113Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:40:10.778Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:40:37.949Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:40:59.037Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:41:39.306Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:42:22.485Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:42:34.635Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:42:40.854Z'
+}
+{
+  message: 'validationResult is not defined',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\middleware\\controller.middleware.js:14:22'
+  },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: '@denemil.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T23:42:43.120Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:43:01.357Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:43:13.946Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-19T23:43:17.967Z'
+}
+{
+  message: 'Validation Error',
+  err: { kind: 'UNPROCESSABLE_ENTITY', source: 'validations.method' },
+  req: {
+    path: 'POST /v1/credentials/login',
+    body: {
+      email: '@denemil.com',
+      password: '0cea5e938d5c9db6053cb9d1ac6bcefa86ecc331a3d345832b94db1c9043fc27'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-19T23:43:19.766Z'
+}

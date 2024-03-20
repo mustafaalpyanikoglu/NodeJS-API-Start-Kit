@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
+const {StatusCodes} = require('http-status-codes');
 
-const {validationResult} = require('express-validator');
-const {constants} = require('.././utils');
+const {constants, validators} = require('.././utils');
 
 const Post = require('../models/post');
 
@@ -21,7 +21,8 @@ exports.getPosts = (req, res, next) => {
             .limit(perPage);
       })
       .then((posts) => {
-        res.status(200)
+        res
+            .status(StatusCodes.OK)
             .json({
               message: constants.FETCHED_POSTS_SUCCESS,
               posts: posts,
@@ -31,22 +32,18 @@ exports.getPosts = (req, res, next) => {
       })
       .catch((err) => {
         if (!err.statusCode) {
-          err.statusCode = 500;
+          err.statusCode = StatusCodes.INTERNAL_SERVER_ERROR;
         }
         next(err);
       });
 };
 
 exports.createPost = (req, res, next) => {
-  const errors = validationResult(req);
-  if (!errors.isEmpty()) {
-    const error = new Error(constants.VALIDATION_FAILED);
-    error.statusCode = 422;
-    throw error;
-  }
+  validators.validateRequest(req);
+
   if (!req.file) {
     const error = new Error(constants.NO_IMAGE_PROVIDED).
-        error.statusCode = 422;
+        error.statusCode = StatusCodes.UNPROCESSABLE_ENTITY;
     throw error;
   }
   const imageUrl = req.file.path.replace('\\', '/');
@@ -73,7 +70,7 @@ exports.createPost = (req, res, next) => {
       })
       .catch((err) => {
         if (!err.statusCode) {
-          err.statusCode = 500;
+          err.statusCode = StatusCodes.INTERNAL_SERVER_ERROR;
         }
         next(err);
       });
@@ -86,15 +83,17 @@ exports.getPost = (req, res, next) => {
       .then((post) => {
         if (!post) {
           const error = new Error(constants.COULD_NOT_FIND_POST);
-          error.statusCode = 404;
+          error.statusCode = StatusCodes.NOT_FOUND;
           throw error;
         }
-        res.status(200).json({message: constants.POST_FETCHED, post: post});
+        res
+            .status(StatusCodes.OK)
+            .json({message: constants.POST_FETCHED, post: post});
       })
       .catch((err) => {
         console.log(err);
         if (!err.statusCode) {
-          err.statusCode = 500;
+          err.statusCode = StatusCodes.INTERNAL_SERVER_ERROR;
         }
         next(err);
       });
@@ -102,12 +101,8 @@ exports.getPost = (req, res, next) => {
 
 exports.updatePost = (req, res, next) => {
   const postId = req.params.postId;
-  const errors = validationResult(req);
-  if (!errors.isEmpty()) {
-    const error = new Error(constants.VALIDATION_FAILED);
-    error.statusCode = 422;
-    throw error;
-  }
+  validators.validateRequest(req);
+
   const title = req.body.title;
   const content = req.body.content;
   let imageUrl = req.body.image;
@@ -116,7 +111,7 @@ exports.updatePost = (req, res, next) => {
   }
   if (!imageUrl) {
     const error = new Error(constants.NO_FILE_PICKED);
-    error.statusCode = 422;
+    error.statusCode = StatusCodes.UNPROCESSABLE_ENTITY;
     throw error;
   }
   Post
@@ -124,7 +119,7 @@ exports.updatePost = (req, res, next) => {
       .then((post) => {
         if (!post) {
           const error = new Error(constants.COULD_NOT_FIND_POST);
-          error.statusCode = 404;
+          error.statusCode = StatusCodes.NOT_FOUND;
           throw error;
         }
         if (imageUrl !== post.imageUrl ) {
@@ -136,11 +131,12 @@ exports.updatePost = (req, res, next) => {
         return post.save();
       })
       .then((result) => {
-        res.status(200).json({message: constants.POST_UPDATED, post: result});
+        res.status(StatusCodes.OK)
+            .json({message: constants.POST_UPDATED, post: result});
       })
       .catch((err) => {
         if (!err.statusCode) {
-          err.statusCode = 500;
+          err.statusCode = StatusCodes.INTERNAL_SERVER_ERROR;
         }
         next(err);
       });
@@ -153,7 +149,7 @@ exports.deletePost = (req, res, next) => {
       .then((post) => {
         if (!post) {
           const error = new Error(constants.COULD_NOT_FIND_POST);
-          error.statusCode = 404;
+          error.statusCode = StatusCodes.NOT_FOUND;
           throw error;
         }
         // Check logged in user
@@ -162,11 +158,13 @@ exports.deletePost = (req, res, next) => {
       })
       .then((result) => {
         console.log(result);
-        res.status(200).json({message: constants.DELETED_POST});
+        res
+            .status(StatusCodes.OK)
+            .json({message: constants.DELETED_POST});
       })
       .catch((err) => {
         if (!err.statusCode) {
-          err.statusCode = 500;
+          err.statusCode = StatusCodes.INTERNAL_SERVER_ERROR;
         }
         next(err);
       });

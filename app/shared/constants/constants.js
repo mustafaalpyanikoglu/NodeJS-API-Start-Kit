@@ -35,4 +35,9 @@ module.exports = {
   EMAIL_EXISTS: 'E-Mail address already exists!',
   PASSWORD_LENGTH: 'Password must be at least 5 characters long.',
   NAME_REQUIRED: 'Name field is required.',
+  USER_NOT_FOUND: 'A user with this email could not be found.',
+  WRONG_PASSWORD: 'Wrong password.',
+  NOT_AUTHENTICATED: 'Not authenticated.',
+  INVALID_TOKEN: 'Invalid token.',
+  INTERNAL_SERVER_ERROR: 'Internal server error.',
 };

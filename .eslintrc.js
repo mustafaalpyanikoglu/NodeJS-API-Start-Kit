@@ -23,5 +23,9 @@ module.exports = {
   },
   'rules': {
     'new-cap': 'off',
+    'max-line-length': [
+      true,
+      140,
+    ],
   },
 };

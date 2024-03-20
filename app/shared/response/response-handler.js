@@ -20,6 +20,6 @@ const errorResponse = (res, statusCode, message, data) => {
 };
 
 module.exports = {
-  successResponse,
-  errorResponse,
+  successResponse: successResponse,
+  errorResponse: errorResponse,
 };
