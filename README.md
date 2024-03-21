@@ -63,8 +63,7 @@ This Node.js API is a general-purpose web service built using Express. The API i
 
 ### Code Quality and Style
 
-- **Eslint:** ^8.57.0
-- **Eslint-config-google:** ^0.14.0
+- **Prettier:** ^3.2.5
 
 ## Dev Dependencies
 
