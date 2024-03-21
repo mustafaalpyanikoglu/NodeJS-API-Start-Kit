@@ -6,10 +6,10 @@ module.exports = {
   models: require("./models/models.index"),
   /** Shared utility functions */
   utils: require("./utils/utils.index"),
-  responseHandler: require('./response/response-handler'),
-  fileHelper: require('./fileHelper/file-helper'),
+  /** Handles response for HTTP requests */
+  responseHandler: require('./utils/response.utils'),
+  /** Function to connect to the database */
   connectDB: require('./db/database'),
+  /** Constant values used across the application */
   constants: require('./constants/constants'),
-  successResponse: require('./response/response-handler').successResponse,
-  errorResponse: require('./response/response-handler').errorResponse,
 }

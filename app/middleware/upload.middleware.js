@@ -1,10 +1,13 @@
 const multer = require('multer');
-const {fileHelper, constants} = require('../shared/shared.index');
+const utils = require('../shared/utils/utils.index');
+const shared = require('../shared/shared.index');
+const { IMAGE } = shared.constants;
+const { Storage, Filter } = utils.fileHelper;
 
 const uploadMiddleware = multer({
-  storage: fileHelper.storage,
-  fileFilter: fileHelper.filter,
-}).single(constants.IMAGE);
+  storage: Storage,
+  fileFilter: Filter,
+}).single(IMAGE);
 
 /** Upload middleware */
 const uploadMiddlewareHandler = {

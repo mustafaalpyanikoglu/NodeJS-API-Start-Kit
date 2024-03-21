@@ -6,4 +6,10 @@ module.exports = {
   request: require("./request.utils"),
   /** Authorization shared functions. */
   authorization: require("./authorization.utils"),
+  /** Utility functions for file operations */
+  fileHelper: require('./file.utils'),
+  /** Function to generate success response */
+  successResponse: require('./response.utils').successResponse,
+  /** Function to generate error response */
+  errorResponse: require('./response.utils').errorResponse,
 };

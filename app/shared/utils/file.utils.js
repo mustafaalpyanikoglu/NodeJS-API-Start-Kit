@@ -1,8 +1,10 @@
 const multer = require('multer');
 const {v4: uuid4} = require('uuid');
-const constants = require('../constants/constants');
 
-const storage = multer.diskStorage({
+const shared = require('../shared.index');
+const constants = shared.constants;
+
+const Storage = multer.diskStorage({
   destination: function(req, file, cb) {
     cb(null, 'images');
   },
@@ -11,7 +13,7 @@ const storage = multer.diskStorage({
   },
 });
 
-const filter = (req, file, cb) => {
+const Filter = (req, file, cb) => {
   if (
     file.mimetype === constants.IMAGE_PNG ||
     file.mimetype === constants.IMAGE_JPG ||
@@ -23,4 +25,4 @@ const filter = (req, file, cb) => {
   }
 };
 
-module.exports = {storage, filter};
+module.exports = {Storage, Filter};

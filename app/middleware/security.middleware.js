@@ -4,13 +4,11 @@ const crypto = require('crypto');
 const env = require('dotenv').config().parsed;
 const shared = require('../shared/shared.index');
 const { AppError } = shared.models;
+const { OPTIONS, GET, POST, PUT, PATCH, DELETE, 
+CONTENT_TYPE, AUTHORIZATION, ALLOW_ALL_ORIGINS } = shared.constants;
+
 const apiKey = env.API_KEY;
 const secret = env.JWT_SECRET;
-
-const {
-  OPTIONS, GET, POST, PUT, PATCH, DELETE, 
-  CONTENT_TYPE, AUTHORIZATION, ALLOW_ALL_ORIGINS
-} = require('../shared/constants/constants');
 
 const guardApiKey = (req, res, next) => {
   const key = req.headers['x-api-key'];

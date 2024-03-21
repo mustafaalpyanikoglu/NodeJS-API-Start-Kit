@@ -1,9 +1,10 @@
 const express = require('express');
 const path = require('path');
-const {constants} = require('../shared/shared.index');
+const shared = require('../shared/shared.index');
+const { IMAGES } = shared.constants;
 
 const staticFilesMiddleware = express.static(
-    path.join(__dirname, constants.IMAGES),
+    path.join(__dirname, IMAGES),
 );
 
 /** Static files middleware */

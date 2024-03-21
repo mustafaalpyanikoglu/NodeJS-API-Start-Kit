@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = Object.freeze({
   // route constants
   FEED_ROUTE: '/feed',
   AUTH_ROUTE: '/auth',
@@ -21,6 +21,7 @@ module.exports = {
   AUTHORIZATION: 'Authorization',
   ALLOW_ALL_ORIGINS: '*',
 
+  // Other constants
   FETCHED_POSTS_SUCCESS: 'Fetched posts successfully.',
   VALIDATION_FAILED: 'Validation failed, entered data is incorrect.',
   NO_IMAGE_PROVIDED: 'No image provided.',
@@ -40,4 +41,4 @@ module.exports = {
   NOT_AUTHENTICATED: 'Not authenticated.',
   INVALID_TOKEN: 'Invalid token.',
   INTERNAL_SERVER_ERROR: 'Internal server error.',
-};
+});

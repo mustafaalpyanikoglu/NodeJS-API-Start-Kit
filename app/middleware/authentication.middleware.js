@@ -2,15 +2,15 @@ const { expressjwt } = require("express-jwt");
 const env = require("dotenv").config().parsed;
 const secret = env.JWT_SECRET;
 const algorithms = [env.JWT_ALGORITHM];
+const shared = require('../shared/shared.index');
+const { NOT_AUTHENTICATED } = shared.constants;
+const { AppError } = shared.models;
 
 const guardUser = expressjwt({
   secret,
   algorithms,
   credentialsRequired: true,
 });
-
-const constants = require('../shared/constants/constants');
-const httpStatusCode = require('http-status-codes');
 
 /**
  * Security related middleware functions.
@@ -27,23 +27,14 @@ module.exports = authentication = {
 
 module.exports = (req, res, next) => {
   const authHeader = req.get('Authorization');
-  if (!authHeader) {
-    const error = new Error(constants.NOT_AUTHENTICATED);
-    err.statusCode = httpStatusCode.StatusCodes.UNAUTHORIZED;
-    throw error;
-  }
+  if (!authHeader) return next(new AppError(NOT_AUTHENTICATED, 'UNAUTHORIZED', 'authentication.middleware'));
   const token = authHeader.split(' ')[1];
   try {
-    decodedToken = jwt.verify(token, process.env.SECRET_KEY);
+    decodedToken = jwt.verify(token, env.SECRET_KEY);
   } catch (err) {
-    err.statusCode = httpStatusCode.StatusCodes.INTERNAL_SERVER_ERROR;
-    throw error;
+    throw new AppError(NOT_AUTHENTICATED, 'INTERNAL_SERVER_ERROR', 'authentication.middleware');
   }
-  if (!decodedToken) {
-    const error = new Error(constants.NOT_AUTHENTICATED);
-    error.statusCode = httpStatusCode.StatusCodes.UNAUTHORIZED;
-    throw error;
-  }
+  if (!decodedToken) throw new AppError(NOT_AUTHENTICATED, 'UNAUTHORIZED', 'authentication.middleware');
   req.userId = decodedToken.userId;
   next();
 };
