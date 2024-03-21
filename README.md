@@ -20,25 +20,32 @@ This Node.js API is a general-purpose web service built using Express. The API i
  - To run in development mode: npm start
  - To watch the code and reload automatically: npm run start
 ## Dependencies
- - bcryptjs: ^2.4.3
- - body-parser: ^1.20.2
- - cors: ^2.8.5
- - crypto.js: ^3.2.1
- - dotenv: ^16.4.5
- - eslint: ^8.57.0
- - eslint-config-google: ^0.14.0
- - express: ^4.18.3
- - express-jwt: ^8.4.1
- - express-validator: ^7.0.1
- - helmet: ^7.1.0
- - jsonwebtoken: ^9.0.2
- - mongoose: ^8.2.1
- - morgan: ^1.10.0
- - multer: ^1.4.5-lts.1
- - uuid: ^9.0.1
- - winston: ^3.12.0
+### Core Libraries
+ - **Express:** ^4.18.3 - A powerful web framework for building fast web applications.
+ - **MongoDB Integration with Mongoose:** ^8.2.1 - Interacts with MongoDB database using Mongoose.
+### Authentication and Security
+ - **JWT Authentication:** ^9.0.2 - Provides authentication using JSON Web Tokens.
+ - **Helmet:** ^7.1.0 - Helps secure the application with various HTTP headers.
+ - **CORS:** ^2.8.5 - Enables Cross-Origin Resource Sharing for the API.
+### Validation and Error Handling
+ - **Express-validator:** ^7.0.1 - Validates incoming requests and handles errors effectively.
+### Encryption and Authentication:
+ - **Bcryptjs:** ^2.4.3 - Provides password hashing functionality.
+ - **Crypto.js:** ^3.2.1 - Offers cryptographic functions.
+### Logging
+ - **Winston:** ^3.12.0 - Facilitates logging of information, errors, and debugging messages.
+### Miscellaneous
+ - **dotenv:** ^16.4.5 - Loads environment variables from a .env file.
+ - **uuid:** ^9.0.1 - Generates RFC-compliant UUIDs.
+ - **body-parser:** ^1.20.2 - Parses incoming request bodies.
+ - **jsonwebtoken:** ^9.0.2 - Generates and verifies JSON Web Tokens.
+ - **morgan:** ^1.10.0 - HTTP request logger middleware.
+ - **multer:** ^1.4.5-lts.1 - Middleware for handling multipart/form-data.
+### Code Quality and Style
+ - **eslint:** ^8.57.0
+ - **eslint-config-google:** ^0.14.0
 ## Dev Dependencies
- - nodemon: ^3.1.0
+ - **nodemon:** ^3.1.0 - Monitors changes in the source code and automatically restarts the server during development.
 ## Contribution
  - Fork the project and make your improvements.
  - Send a pull request for any enhancements.
