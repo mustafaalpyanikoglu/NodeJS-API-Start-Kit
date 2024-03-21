@@ -1,4 +1,6 @@
 # Node.js API Starter Kit
+<img src="https://github.com/mustafaalpyanikoglu/NodeJS-API/assets/79158705/18211251-da8f-4383-b439-794669490cff" width="680" height="377" alt="">
+
 This Node.js API is a general-purpose web service built using Express. The API includes a set of libraries and features to meet basic requirements, allowing you to save time when starting a new project.
 
 ## Features
