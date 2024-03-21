@@ -2,12 +2,10 @@ const express = require('express');
 const middleware = require('../../middleware/middleware.index');
 const service = require('./credentials.service');
 
-const { control } = middleware.controller;
-const { getBody } = middleware.validations;
-const { hashCredentials } = middleware.security;
-const guardUser = middleware.authentication;
-
-const { loginValidator, registerValidator} = require('./credentials.validator');
+const {control} = middleware.controller;
+const {getBody} = middleware.validations;
+const {hashCredentials} = middleware.security;
+const {loginValidator, registerValidator} = require('./credentials.validator');
 
 /**
  * Defines the routes for the credentials endpoint.
@@ -18,4 +16,4 @@ const { loginValidator, registerValidator} = require('./credentials.validator');
 module.exports = express
   .Router()
   .post('/register', getBody, registerValidator, hashCredentials, control(service.register))
-  .post('/login',getBody , loginValidator, hashCredentials, control(service.login));
+  .post('/login', getBody, loginValidator, hashCredentials, control(service.login));

@@ -14,7 +14,7 @@ module.exports = class AppError extends Error {
   getInfo() {
     return {
       kind: this.kind,
-      source: this.source
-    }
+      source: this.source,
+    };
   }
-}
+};

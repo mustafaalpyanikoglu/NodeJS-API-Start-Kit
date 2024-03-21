@@ -1,7 +1,7 @@
 const shared = require('../shared/shared.index');
-const {utils, models } = shared;
-const { AppError, ValidationError } = models;
-const { logger, request } = utils;
+const {utils, models} = shared;
+const {AppError, ValidationError} = models;
+const {logger, request} = utils;
 
 /**
  * Middleware function for handling errors
@@ -15,16 +15,16 @@ const appErrorHandler = (err, req, res, next) => {
 
 const wrapError = (err) => {
   if (err instanceof AppError || err instanceof ValidationError) return err;
-  const isTokenExpired = err.message.includes("jwt expired");
+  const isTokenExpired = err.message.includes('jwt expired');
   const isJwtError = err.message.includes('token');
-  if(isTokenExpired || isJwtError) return new AppError(err.message, 'UNAUTHORIZED', 'express-jwt');
+  if (isTokenExpired || isJwtError) return new AppError(err.message, 'UNAUTHORIZED', 'express-jwt');
   return new AppError(err.message, 'UNAUTHORIZED', getSource(err.stack));
 };
 
 const logError = (appError, req) => {
   const requestInfo = request.getRequestInfo(req);
-  const errorEntry = { message: appError.message, err: appError.getInfo(), req: requestInfo };
-  if (appError.kind === "UNHANDLED") {
+  const errorEntry = {message: appError.message, err: appError.getInfo(), req: requestInfo};
+  if (appError.kind === 'UNHANDLED') {
     logger.error(errorEntry);
   } else {
     logger.warn(errorEntry);
@@ -37,7 +37,6 @@ const sendResponse = (res, appError) => {
   res.status(statusCode).json(appError);
 };
 
-
 const getStatusCode = (kind) => {
   const errorCodes = {
     UNHANDLED: 500,
@@ -47,15 +46,13 @@ const getStatusCode = (kind) => {
     UNAUTHORIZED: 401,
     UNPROCESSABLE_ENTITY: 422,
     INTERNAL_SERVER_ERROR: 500,
-    
   };
   const errorCode = errorCodes[kind] || 400;
   return errorCode;
 };
 
-
 const getSource = (stack) => {
-  const stackArray = stack.split("\n");
+  const stackArray = stack.split('\n');
   const logStack = stackArray.slice(1, 2).join().trim();
   return logStack;
 };

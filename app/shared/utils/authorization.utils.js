@@ -1,11 +1,11 @@
-const jwt = require("jsonwebtoken");
-const env = require("dotenv").config().parsed;
-const { AppError } = require("../errors/models.index");
+const jwt = require('jsonwebtoken');
+const env = require('dotenv').config().parsed;
+const {AppError} = require('../errors/models.index');
 const secret = env.JWT_SECRET;
-const expiration = { expiresIn: env.JWT_EXPIRES_IN };
+const expiration = {expiresIn: env.JWT_EXPIRES_IN};
 const bcrypt = require('bcryptjs');
 
-const signUser = (userId) => jwt.sign({ sub: userId }, secret, expiration);
+const signUser = (userId) => jwt.sign({sub: userId}, secret, expiration);
 
 const extractUserId = (token) => {
   const decoded = jwt.decode(token);
@@ -14,7 +14,7 @@ const extractUserId = (token) => {
 
 const guardIsOwner = (userId, item, source) => {
   if (userId !== item.userId && userId !== item.id) {
-    throw new AppError("User is not the owner", "FORBIDDEN", source);
+    throw new AppError('User is not the owner', 'FORBIDDEN', source);
   }
 };
 
@@ -51,16 +51,16 @@ module.exports = authorization = {
    */
   extractUserId,
   /**
-  * Hashes the given password using bcrypt.
-  * @param {string} password The password to hash.
-  * @returns {Promise<string>} A promise that resolves to the hashed password.
-  */
+   * Hashes the given password using bcrypt.
+   * @param {string} password The password to hash.
+   * @returns {Promise<string>} A promise that resolves to the hashed password.
+   */
   hashPassword,
   /**
- * Compares the given password with the hashed password using bcrypt.
- * @param {string} password The password to compare.
- * @param {string} hashedPassword The hashed password to compare against.
- * @returns {Promise<boolean>} A promise that resolves to true if the passwords match, false otherwise.
- */
-  comparePasswords
+   * Compares the given password with the hashed password using bcrypt.
+   * @param {string} password The password to compare.
+   * @param {string} hashedPassword The hashed password to compare against.
+   * @returns {Promise<boolean>} A promise that resolves to true if the passwords match, false otherwise.
+   */
+  comparePasswords,
 };

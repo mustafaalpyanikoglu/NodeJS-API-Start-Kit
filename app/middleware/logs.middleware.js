@@ -1,6 +1,6 @@
-const morgan = require("morgan");
-const shared = require("../shared/shared.index");
-const { logger, request } = shared.utils;
+const morgan = require('morgan');
+const shared = require('../shared/shared.index');
+const {logger, request} = shared.utils;
 
 /**
  * Input pipe for Morgan logger
@@ -15,7 +15,7 @@ logger.stream = {
 
 const useLoggers = (app) => {
   // use morgan to sent requests to winston logger
-  app.use(morgan("dev", { stream: logger.stream }));
+  app.use(morgan('dev', {stream: logger.stream}));
 };
 
 /**

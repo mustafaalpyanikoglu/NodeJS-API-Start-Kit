@@ -15,15 +15,15 @@ module.exports = class ValidationError extends Error {
   getInfo() {
     return {
       kind: this.kind,
-      source: this.source
-    }
+      source: this.source,
+    };
   }
 
   getErrorDetails() {
-    return this.errors.map(error => ({
+    return this.errors.map((error) => ({
       msg: error.msg,
       path: error.path,
-      value: error.value
+      value: error.value,
     }));
   }
-}
+};

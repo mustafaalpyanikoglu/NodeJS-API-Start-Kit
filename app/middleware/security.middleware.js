@@ -3,10 +3,9 @@ const helmet = require('helmet');
 const crypto = require('crypto');
 const env = require('dotenv').config().parsed;
 const shared = require('../shared/shared.index');
-const { AppError } = shared.models;
+const {AppError} = shared.models;
 
-const { OPTIONS, GET, POST, PUT, PATCH, DELETE, 
-CONTENT_TYPE, AUTHORIZATION, ALLOW_ALL_ORIGINS } = shared.constants;
+const {OPTIONS, GET, POST, PUT, PATCH, DELETE, CONTENT_TYPE, AUTHORIZATION, ALLOW_ALL_ORIGINS} = shared.constants;
 
 const apiKey = env.API_KEY;
 const secret = env.JWT_SECRET;
@@ -14,7 +13,7 @@ const secret = env.JWT_SECRET;
 const guardApiKey = (req, res, next) => {
   const key = req.headers['x-api-key'];
   if (!key || key !== apiKey) {
-    const err = new AppError("API Key Required", "UNAUTHORIZED", "guardApiKey");
+    const err = new AppError('API Key Required', 'UNAUTHORIZED', 'guardApiKey');
     return next(err);
   }
   return next();
@@ -22,7 +21,7 @@ const guardApiKey = (req, res, next) => {
 
 const hashCredentials = (req, res, next) => {
   const credentials = req.body;
-  if(!credentials || !credentials.password) return next();
+  if (!credentials || !credentials.password) return next();
   credentials.password = hash(credentials.password, secret);
   next();
 };
@@ -34,20 +33,13 @@ const hash = (password, secret) => {
 };
 
 const useSecurity = (app) => {
-  app.use(cors(
-    {
+  app.use(
+    cors({
       origin: ALLOW_ALL_ORIGINS,
-      methods: [
-        OPTIONS, GET,
-        POST, PUT,
-        PATCH, DELETE,
-      ],
-      allowedHeaders: [
-        CONTENT_TYPE,
-        AUTHORIZATION,
-      ],
-    }
-  ));
+      methods: [OPTIONS, GET, POST, PUT, PATCH, DELETE],
+      allowedHeaders: [CONTENT_TYPE, AUTHORIZATION],
+    }),
+  );
   app.use(helmet());
   app.use(guardApiKey);
 };
@@ -67,4 +59,3 @@ module.exports = security = {
    */
   hashCredentials,
 };
-

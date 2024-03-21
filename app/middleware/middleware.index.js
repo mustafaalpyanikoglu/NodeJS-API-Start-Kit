@@ -4,21 +4,21 @@
 
 module.exports = middleware = {
   /** Middleware function to act as a controller for a service function */
-  controller: require("./controller.middleware"),
+  controller: require('./controller.middleware'),
   /** Middleware error handler that logs and responds to any error*/
-  errorHandler: require("./error-handler.middleware"),
+  errorHandler: require('./error-handler.middleware'),
   /** Middleware functions for automatic and custom logging*/
-  logs: require("./logs.middleware"),
+  logs: require('./logs.middleware'),
   /** Middleware functions for generic security not related with user authentication*/
-  security: require("./security.middleware"),
+  security: require('./security.middleware'),
   /** Middleware to validate the request JWT and extracts the UserId */
-  authentication: require("./authentication.middleware"),
+  authentication: require('./authentication.middleware'),
   /** Middleware to validate the request JWT and extracts the UserId */
-  authentication: require("./authentication.middleware"),
+  authentication: require('./authentication.middleware'),
   /** Middleware to upload files */
-  upload: require("./upload.middleware"),
+  upload: require('./upload.middleware'),
   /** Middleware to read files */
-  staticFiles: require("./static-files-middleware"),
+  staticFiles: require('./static-files-middleware'),
   /** Middleware to extract arguments from the request.*/
-  validations: require("./validations.middleware"),
+  validations: require('./validations.middleware'),
 };

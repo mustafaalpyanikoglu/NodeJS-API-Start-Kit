@@ -1,5 +1,5 @@
 const express = require('express');
-const env = require("dotenv").config().parsed;
+const env = require('dotenv').config().parsed;
 const bodyParser = require('body-parser');
 
 const api = require('./api/api.router');
@@ -11,7 +11,7 @@ const logger = shared.utils.logger;
 const connectDB = config.connectDB;
 const app = express();
 
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({extended: false}));
 
 middleware.logs.useLoggers(app);
 middleware.upload.useUpload(app);
@@ -24,4 +24,3 @@ connectDB(env.MONGODB_URI);
 
 const startMessage = `Listening on ${env.PORT}, ${env.NODE_ENV} environment`;
 app.listen(env.PORT, () => logger.info(startMessage));
-

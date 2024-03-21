@@ -5,10 +5,10 @@ const shared = require('../shared.index');
 const constants = shared.constants;
 
 const Storage = multer.diskStorage({
-  destination: function(req, file, cb) {
+  destination: function (req, file, cb) {
     cb(null, 'images');
   },
-  filename: function(req, file, cb) {
+  filename: function (req, file, cb) {
     cb(null, uuid4());
   },
 });

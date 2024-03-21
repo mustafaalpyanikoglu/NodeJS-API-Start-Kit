@@ -10,4 +10,4 @@ module.exports = {
    * @description Adds properties for the kind and the source of the error.
    */
   ValidationError: require('./validation.error.class'),
-}
+};

@@ -2,9 +2,9 @@ const express = require('express');
 const middleware = require('../../middleware/middleware.index');
 const service = require('./feed.service');
 
-const { control } = middleware.controller;
-const { getId, getQuery, getBody, uploadFileRequired, uploadFileNotRequired } = middleware.validations;
-const { guardUser } = middleware.authentication;
+const {control} = middleware.controller;
+const {getId, getQuery, getBody, uploadFileRequired, uploadFileNotRequired} = middleware.validations;
+const {guardUser} = middleware.authentication;
 
 /**
  * Defines the routes for the feed endpoint.
@@ -14,8 +14,8 @@ const { guardUser } = middleware.authentication;
  */
 module.exports = express
   .Router()
-  .get('/posts', guardUser,getQuery, control(service.getPosts))
+  .get('/posts', guardUser, getQuery, control(service.getPosts))
   .post('/post', getBody, uploadFileRequired, control(service.createPost))
   .get('/post/:id', getId, control(service.readById))
-  .put('/post/:id', getId, getBody, uploadFileNotRequired, control(service.updatePost)) 
+  .put('/post/:id', getId, getBody, uploadFileNotRequired, control(service.updatePost))
   .delete('/post/:id', getId, control(service.deletePost));

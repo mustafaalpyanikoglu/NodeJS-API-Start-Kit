@@ -1,12 +1,12 @@
-const express = require('express')
+const express = require('express');
 
 const credentialsRouter = require('./credentials/credentials.router');
 const feedsRouter = require('./feeds/feed.router');
 
 const middleware = require('../middleware/middleware.index');
-const { debug } = require('winston');
-const { guardUser } = middleware.authentication;
-const { debugReq } = middleware.logs;
+const {debug} = require('winston');
+const {guardUser} = middleware.authentication;
+const {debugReq} = middleware.logs;
 
 const useRouters = (app, apiVersion) => {
   app.use(express.json());
@@ -17,8 +17,8 @@ const useRouters = (app, apiVersion) => {
 
 const getApiRouters = () => {
   const apiRouters = express.Router();
-  apiRouters.use("/feed", debugReq, feedsRouter);
-  apiRouters.use("/credentials", debugReq, credentialsRouter);
+  apiRouters.use('/feed', debugReq, feedsRouter);
+  apiRouters.use('/credentials', debugReq, credentialsRouter);
   return apiRouters;
 };
 

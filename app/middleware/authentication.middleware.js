@@ -1,5 +1,5 @@
-const { expressjwt } = require("express-jwt");
-const env = require("dotenv").config().parsed;
+const {expressjwt} = require('express-jwt');
+const env = require('dotenv').config().parsed;
 const secret = env.JWT_SECRET;
 const algorithms = [env.JWT_ALGORITHM];
 

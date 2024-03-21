@@ -1,7 +1,7 @@
 /**
  * Extracts useful information from the request object
  * @param req the current request
- * @returns An object with the request information
+ * @return An object with the request information
  */
 const getRequestInfo = (req) => {
   const requestInfo = {
@@ -24,4 +24,4 @@ const getRequestInfo = (req) => {
 const hasInfo = (property) => Object.keys(property).length > 0;
 
 /** Utility functions for parsing a request */
-module.exports = request = { getRequestInfo };
+module.exports = request = {getRequestInfo};
