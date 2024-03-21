@@ -23,7 +23,8 @@ const control = (serviceFn) => {
 
 const getStatusCode = (method, body) => {
   if(method === 'POST' || method === 'PUT') return 201;
-  if(method === 'DELETE' || isEmpty(body)) return 204;
+  if(method === 'DELETE') return 204;
+  if(isEmpty(body)) return 204;
   return 200;
 };
 

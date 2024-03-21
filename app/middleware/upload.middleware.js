@@ -9,10 +9,11 @@ const uploadMiddleware = multer({
   fileFilter: Filter,
 }).single(IMAGE);
 
-/** Upload middleware */
-const uploadMiddlewareHandler = {
+/**
+ * Upload middleware handler.
+ * @description Configures upload to the app
+ */
+module.exports = uploadMiddlewareHandler = {
   /** Configures upload to the app */
   useUpload: (app) => app.use(uploadMiddleware),
 };
-
-module.exports = uploadMiddlewareHandler;

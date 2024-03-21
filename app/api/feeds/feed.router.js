@@ -14,7 +14,7 @@ const { guardUser } = middleware.authentication;
  */
 module.exports = express
   .Router()
-  .get('/posts', getQuery, control(service.getPosts))
+  .get('/posts', guardUser,getQuery, control(service.getPosts))
   .post('/post', getBody, uploadFileRequired, control(service.createPost))
   .get('/post/:id', getId, control(service.readById))
   .put('/post/:id', getId, getBody, uploadFileNotRequired, control(service.updatePost)) 

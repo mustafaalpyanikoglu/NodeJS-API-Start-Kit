@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const env = require("dotenv").config().parsed;
-const { AppError } = require("../models/models.index");
+const { AppError } = require("../errors/models.index");
 const secret = env.JWT_SECRET;
 const expiration = { expiresIn: env.JWT_EXPIRES_IN };
 const bcrypt = require('bcryptjs');

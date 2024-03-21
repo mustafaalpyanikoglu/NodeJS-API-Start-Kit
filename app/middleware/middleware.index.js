@@ -13,6 +13,8 @@ module.exports = middleware = {
   security: require("./security.middleware"),
   /** Middleware to validate the request JWT and extracts the UserId */
   authentication: require("./authentication.middleware"),
+  /** Middleware to validate the request JWT and extracts the UserId */
+  authentication: require("./authentication.middleware"),
   /** Middleware to upload files */
   upload: require("./upload.middleware"),
   /** Middleware to read files */

@@ -7,10 +7,11 @@ const staticFilesMiddleware = express.static(
     path.join(__dirname, IMAGES),
 );
 
-/** Static files middleware */
-const staticFilesMiddlewareHandler = {
+/**
+ * Static files middleware handler.
+ * @description Configures static files to the app
+ */
+module.exports = staticFilesMiddlewareHandler = {
     /** Configures static files to the app */
     useStaticFiles: (app) => app.use(staticFilesMiddleware),
 };
-
-module.exports = staticFilesMiddlewareHandler;
