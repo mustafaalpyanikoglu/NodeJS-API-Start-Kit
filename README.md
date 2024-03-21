@@ -35,17 +35,17 @@ This Node.js API is a general-purpose web service built using Express. The API i
 ### Logging
  - **Winston:** ^3.12.0 - Facilitates logging of information, errors, and debugging messages.
 ### Miscellaneous
- - **dotenv:** ^16.4.5 - Loads environment variables from a .env file.
- - **uuid:** ^9.0.1 - Generates RFC-compliant UUIDs.
- - **body-parser:** ^1.20.2 - Parses incoming request bodies.
- - **jsonwebtoken:** ^9.0.2 - Generates and verifies JSON Web Tokens.
- - **morgan:** ^1.10.0 - HTTP request logger middleware.
- - **multer:** ^1.4.5-lts.1 - Middleware for handling multipart/form-data.
+ - **Dotenv:** ^16.4.5 - Loads environment variables from a .env file.
+ - **Uuid:** ^9.0.1 - Generates RFC-compliant UUIDs.
+ - **Body-parser:** ^1.20.2 - Parses incoming request bodies.
+ - **Jsonwebtoken:** ^9.0.2 - Generates and verifies JSON Web Tokens.
+ - **Morgan:** ^1.10.0 - HTTP request logger middleware.
+ - **Multer:** ^1.4.5-lts.1 - Middleware for handling multipart/form-data.
 ### Code Quality and Style
- - **eslint:** ^8.57.0
- - **eslint-config-google:** ^0.14.0
+ - **Eslint:** ^8.57.0
+ - **Eslint-config-google:** ^0.14.0
 ## Dev Dependencies
- - **nodemon:** ^3.1.0 - Monitors changes in the source code and automatically restarts the server during development.
+ - **Nodemon:** ^3.1.0 - Monitors changes in the source code and automatically restarts the server during development.
 ## Contribution
  - Fork the project and make your improvements.
  - Send a pull request for any enhancements.
@@ -53,9 +53,5 @@ This Node.js API is a general-purpose web service built using Express. The API i
  - This project is licensed under the ISC License. For more information, see the LICENSE file.
 ## Postman Collection
 [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 256px; height: 64px;">](https://app.getpostman.com/run-collection/20862553-6fa4725c-2fd3-4aa4-893f-6cb07d62cedf?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D20862553-6fa4725c-2fd3-4aa4-893f-6cb07d62cedf%26entityType%3Dcollection%26workspaceId%3D5034bb44-b60c-4804-8826-4d156826be0c)
-
-## Installation
-Download and install the Postman application.
-Click the "Run in Postman" button below to import the collection into Postman.
 ## 
 This README provides a general guide on how to use the project and contribute to it. Feel free to customize it according to your needs.
