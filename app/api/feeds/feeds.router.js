@@ -1,9 +1,9 @@
 const express = require('express');
 const middleware = require('../../middleware/middleware.index');
-const service = require('./feed.service');
+const service = require('./feeds.service');
 
 const {control} = middleware.controller;
-const {getId, getQuery, getBody, uploadFileRequired, uploadFileNotRequired} = middleware.validations;
+const {getId, getQuery, getBody, getUserId, uploadFileRequired, uploadFileNotRequired} = middleware.validations;
 const {guardUser} = middleware.authentication;
 
 /**
@@ -15,7 +15,7 @@ const {guardUser} = middleware.authentication;
 module.exports = express
   .Router()
   .get('/posts', guardUser, getQuery, control(service.getPosts))
-  .post('/post', getBody, uploadFileRequired, control(service.createPost))
+  .post('/post', guardUser, getBody, uploadFileRequired, getUserId, control(service.createPost))
   .get('/post/:id', getId, control(service.readById))
-  .put('/post/:id', getId, getBody, uploadFileNotRequired, control(service.updatePost))
-  .delete('/post/:id', getId, control(service.deletePost));
+  .put('/post/:id', guardUser, getId, getBody, uploadFileNotRequired, getUserId, control(service.updatePost))
+  .delete('/post/:id', guardUser, getId, getUserId, control(service.deletePost));
