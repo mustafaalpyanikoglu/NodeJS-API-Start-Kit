@@ -1,0 +1,1165 @@
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:42:17.611Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:43:11.053Z'
+}
+{
+  message: 'File is required',
+  err: { kind: 'VALIDATION', source: 'validations.uploadFile' },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:43:13.489Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:43:25.408Z'
+}
+{
+  message: 'File is required',
+  err: { kind: 'VALIDATION', source: 'validations.uploadFile' },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:43:26.861Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:44:36.769Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:44:38.449Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:45:07.423Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:45:08.179Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:45:56.035Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:46:16.902Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:46:22.642Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:46:31.196Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:46:50.621Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:46:51.891Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:47:26.694Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:47:49.806Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:47:50.134Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:48:31.930Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:49:19.315Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:49:23.701Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:49:29.726Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:50:03.384Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:50:07.949Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:50:17.222Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:50:18.018Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:50:23.839Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:50:23.970Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:51:26.115Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:51:29.826Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:51:36.966Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:52:34.308Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:52:35.895Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:53:38.339Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:54:07.409Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:54:09.947Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:55:09.439Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:55:21.492Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:35:23)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:55:22.760Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:57:01.702Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:57:09.288Z'
+}
+{
+  message: 'Cast to ObjectId failed for value "1" (type number) at path "_id" for model "User"',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:57:16.141Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:57:30.964Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:57:36.434Z'
+}
+{
+  message: `Cast to ObjectId failed for value "[Object: null prototype] { title: 'Deneme', content: 'Deneme içeriği' }" (type object) at path "posts" because of "BSONError"`,
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:57:40.041Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:57:49.217Z'
+}
+{
+  message: `Cast to ObjectId failed for value "[Object: null prototype] { title: 'Deneme', content: 'Deneme içeriği' }" (type object) at path "posts" because of "BSONError"`,
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:57:52.041Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:58:14.770Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:58:22.337Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:58:37.614Z'
+}
+{
+  message: `Cast to ObjectId failed for value "[Object: null prototype] { title: 'Deneme', content: 'Deneme içeriği' }" (type object) at path "posts" because of "BSONError"`,
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T21:58:39.358Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:59:08.861Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T21:59:59.780Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:00:31.628Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:00:33.002Z'
+}
+{
+  message: `Cast to ObjectId failed for value "[Object: null prototype] { title: 'Deneme', content: 'Deneme içeriği' }" (type object) at path "posts" because of "BSONError"`,
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T22:00:36.987Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:00:56.786Z'
+}
+{
+  message: `Cast to ObjectId failed for value "[Object: null prototype] { title: 'Deneme', content: 'Deneme içeriği' }" (type object) at path "posts" because of "BSONError"`,
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T22:00:59.785Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:01:27.595Z'
+}
+{
+  message: `Cast to ObjectId failed for value "[Object: null prototype] { title: 'Deneme', content: 'Deneme içeriği' }" (type object) at path "posts" because of "BSONError"`,
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T22:01:32.173Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:01:42.399Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:03:16.538Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:04:14.783Z'
+}
+{
+  message: `Cast to ObjectId failed for value "[Object: null prototype] { title: 'Deneme', content: 'Deneme içeriği' }" (type object) at path "posts" because of "BSONError"`,
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T22:04:17.377Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:04:20.866Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:04:31.026Z'
+}
+{
+  message: `Cast to ObjectId failed for value "[Object: null prototype] { title: 'Deneme', content: 'Deneme içeriği' }" (type object) at path "posts" because of "BSONError"`,
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T22:04:32.872Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:04:40.565Z'
+}
+{
+  message: `Cast to ObjectId failed for value "[Object: null prototype] { title: 'Deneme', content: 'Deneme içeriği' }" (type object) at path "posts" because of "BSONError"`,
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T22:04:45.644Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:04:52.527Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:04:54.989Z'
+}
+{
+  message: `Cast to ObjectId failed for value "[Object: null prototype] { title: 'Deneme', content: 'Deneme içeriği' }" (type object) at path "posts" because of "BSONError"`,
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T22:04:56.736Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:05:03.337Z'
+}
+{
+  message: "Cannot access 'user' before initialization",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:39:3)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T22:05:06.134Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:05:12.730Z'
+}
+{
+  message: "Cannot access 'user' before initialization",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:39:3)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T22:05:14.863Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:05:24.886Z'
+}
+{
+  message: "Cannot access 'user' before initialization",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at createPost (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\feeds\\feed.service.js:38:3)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T22:05:25.445Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:05:34.399Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:06:17.400Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:06:20.282Z'
+}
+{
+  message: `Cast to ObjectId failed for value "[Object: null prototype] { title: 'Deneme', content: 'Deneme içeriği' }" (type object) at path "posts" because of "BSONError"`,
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at SchemaObjectId.cast (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\node_modules\\mongoose\\lib\\schema\\objectId.js:250:11)'
+  },
+  req: {
+    path: 'POST /v1/feed/post',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T22:06:22.922Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:07:37.884Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:07:44.398Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:08:28.888Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:08:43.795Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:47:22.907Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:50:17.459Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:50:21.684Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:50:22.820Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:50:30.916Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:50:35.381Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T22:53:05.828Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:09:24.873Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:10:00.439Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:10:08.365Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:11:00.434Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:11:17.829Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:11:27.059Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:11:38.370Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:12:03.821Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:12:23.673Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:16:09.139Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:16:25.809Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:16:38.849Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:16:54.993Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:17:08.927Z'
+}
+{
+  message: 'User is not the owner',
+  err: { kind: 'FORBIDDEN', source: 'feeds.service.update' },
+  req: {
+    path: 'PUT /v1/feed/post/65f3742f806ceda88d571959',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'asdasdasdfasfsa',
+      content: 'Deneme içeriği',
+      image: 'images/f0932ef8-8314-44aa-bbd4-bbd6e6e3ca75'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T23:23:32.925Z'
+}
+{
+  message: 'User is not the owner',
+  err: { kind: 'FORBIDDEN', source: 'feeds.service.update' },
+  req: {
+    path: 'PUT /v1/feed/post/65fe016e72e376b7f76fd087',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği222',
+      image: 'images/377d232d-3dfd-4df8-803e-bf7eca74d0b2'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T23:24:21.181Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:24:48.112Z'
+}
+{
+  message: 'User is not the owner',
+  err: { kind: 'FORBIDDEN', source: 'feeds.service.update' },
+  req: {
+    path: 'PUT /v1/feed/post/65fe016e72e376b7f76fd087',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği222',
+      image: 'images/377d232d-3dfd-4df8-803e-bf7eca74d0b2'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T23:24:50.558Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:25:08.403Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:25:36.323Z'
+}
+{
+  message: 'User is not the owner',
+  err: { kind: 'FORBIDDEN', source: 'feeds.service.update' },
+  req: {
+    path: 'PUT /v1/feed/post/65fe016e72e376b7f76fd087',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği222',
+      image: 'images/377d232d-3dfd-4df8-803e-bf7eca74d0b2'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T23:25:38.854Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:25:44.015Z'
+}
+{
+  message: 'User is not the owner',
+  err: { kind: 'FORBIDDEN', source: 'feeds.service.update' },
+  req: {
+    path: 'PUT /v1/feed/post/65fe016e72e376b7f76fd087',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği222',
+      image: 'images/377d232d-3dfd-4df8-803e-bf7eca74d0b2'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T23:25:45.933Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:26:39.375Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:26:46.401Z'
+}
+{
+  message: 'User is not the owner',
+  err: { kind: 'FORBIDDEN', source: 'feeds.service.update' },
+  req: {
+    path: 'PUT /v1/feed/post/65fe016e72e376b7f76fd087',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği222',
+      image: 'images/377d232d-3dfd-4df8-803e-bf7eca74d0b2'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T23:26:49.383Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:27:12.301Z'
+}
+{
+  message: 'User is not the owner',
+  err: { kind: 'FORBIDDEN', source: 'feeds.service.update' },
+  req: {
+    path: 'PUT /v1/feed/post/65fe016e72e376b7f76fd087',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği222',
+      image: 'images/377d232d-3dfd-4df8-803e-bf7eca74d0b2'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T23:27:14.122Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:27:23.465Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:27:25.647Z'
+}
+{
+  message: 'User is not the owner',
+  err: { kind: 'FORBIDDEN', source: 'feeds.service.update' },
+  req: {
+    path: 'PUT /v1/feed/post/65fe016e72e376b7f76fd087',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği222',
+      image: 'images/377d232d-3dfd-4df8-803e-bf7eca74d0b2'
+    }
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T23:27:27.326Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:27:34.792Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:27:39.896Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:28:17.339Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:28:42.949Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:29:01.852Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:29:10.825Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:32:52.058Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:33:20.745Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:33:52.111Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:36:58.732Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:37:20.226Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:37:58.138Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:38:22.688Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:39:00.131Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:39:09.327Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:39:35.102Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:39:55.777Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:40:02.207Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:16:31)'
+  },
+  req: {
+    path: 'DELETE /v1/feed/post/65f239d62bfb3c1621226a61',
+    auth: 'Bearer eyJ'
+  },
+  level: 'warn',
+  timestamp: '2024-03-22T23:40:45.348Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:41:19.642Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:42:29.496Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:42:36.663Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-22T23:42:38.679Z'
+}

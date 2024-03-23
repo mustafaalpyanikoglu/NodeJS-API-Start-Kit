@@ -22,7 +22,6 @@ const create = async (user) => {
   await readByEmail(user.email);
 
   const hashedPassword = await hashPassword(user.password);
-  console.log(hashedPassword);
   const createdUser = new User({
     email: user.email,
     password: hashedPassword,

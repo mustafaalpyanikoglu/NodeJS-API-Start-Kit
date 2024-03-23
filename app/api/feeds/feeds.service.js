@@ -1,17 +1,25 @@
+const fs = require('fs');
+const path = require('path');
 const shared = require('../../shared/shared.index');
+
 const {models, utils} = shared;
 const {AppError} = models;
 const {guardIsOwner} = utils.authorization;
 
 const Post = require('../../models/post');
-const fs = require('fs');
-const path = require('path');
+const User = require('../../models/user');
 
 async function readById(id) {
   const post = await Post.findById(id.toString());
-  if (!post) throw new AppError('Post with id: ${id}', 'NOT_FOUND', 'feed.service.readById');
+  if (!post) throw new AppError(`Post with id: ${id}', 'NOT_FOUND', 'feeds.service.readById`);
   return post;
 }
+
+const userGetById = async (id) => {
+  const user = await User.findById(id.toString());
+  if (!user) throw new AppError('User not found!', 'NOT_FOUND', 'feeds.service.userGetById');
+  return user;
+};
 
 const getPosts = async (query) => {
   const currentPage = query.page || 1;
@@ -23,48 +31,46 @@ const getPosts = async (query) => {
   return {posts: posts, totalItems: totalItems};
 };
 
-const createPost = async (post, file) => {
-  if (!file) throw new AppError('No image provided', 'UNPROCESSABLE_ENTITY', 'feed.service.createPost');
+const createPost = async (post, file, userId) => {
+  if (!file) throw new AppError('No image provided', 'UNPROCESSABLE_ENTITY', 'feeds.service.createPost');
+  const user = await userGetById(userId);
   const imageUrl = file.path.replace('\\', '/');
-
   const createPost = new Post({
     title: post.title,
     content: post.content,
     imageUrl: imageUrl,
-    creator: {
-      name: 'Alp',
-    },
+    creator: userId.toString(),
   });
-
-  const result = createPost.save();
-  return result;
+  const savedPost = await createPost.save();
+  user.posts.push(savedPost);
+  await user.save();
+  return savedPost;
 };
 
 const getImageUrl = (file, imageUrl) => {
   if (file) imageUrl = file.path.toString().replace('\\', '/');
-  if (!imageUrl) throw new AppError('No file picked.', 'UNPROCESSABLE_ENTITY', 'feed.service.getImageUrl');
+  if (!imageUrl) throw new AppError('No file picked.', 'UNPROCESSABLE_ENTITY', 'feeds.service.getImageUrl');
   return imageUrl;
 };
 
-const performUpdate = async (id, post, imageUrl) => {
+const updatePost = async (id, post, file, userId) => {
   const updatePost = await readById(id);
+  guardIsOwner(userId, updatePost, "feeds.service.updatePost");
+  const imageUrl = getImageUrl(file, post.imageUrl);
   if (imageUrl !== updatePost.imageUrl) clearImage(updatePost.imageUrl);
   updatePost.title = post.title;
   updatePost.imageUrl = imageUrl;
   updatePost.content = post.content;
-
   const result = await updatePost.save();
   return result;
 };
 
-const updatePost = async (id, post, file) => {
-  const imageUrl = getImageUrl(file, post.imageUrl);
-  const result = await performUpdate(id, post, imageUrl);
-  return result;
-};
-
-const deletePost = async (id) => {
+const deletePost = async (id, userId) => {
   const deletePost = await readById(id);
+  guardIsOwner(userId, deletePost, "feeds.service.deletePost");
+  const user = await userGetById(userId);
+  await user.posts.pull(id);
+  await user.save();
   clearImage(deletePost.imageUrl);
   const deletedPost = await Post.findByIdAndDelete(id);
   return deletedPost;
@@ -72,7 +78,11 @@ const deletePost = async (id) => {
 
 const clearImage = (filePath) => {
   filePath = path.join(__dirname, '..', '..', '..', filePath);
-  fs.unlink(filePath, (err) => console.log(err));
+  fs.unlink(filePath, (err) => {
+    if (err) {
+      throw new AppError('An error occurred while deleting the file.', 'INTERNAL_SERVER_ERROR', 'feeds.service.clearImage');
+    }
+  });
 };
 
 /**
