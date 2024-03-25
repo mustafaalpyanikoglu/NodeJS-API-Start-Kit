@@ -1,0 +1,955 @@
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T03:40:08.697Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T03:40:21.428Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T03:40:40.486Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:16:31)'
+  },
+  req: {
+    path: 'DELETE /v1/feed/post/65fe016e72e376b7f76fd087',
+    auth: 'Bearer eyJ'
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T03:41:44.103Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T03:42:20.120Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T03:44:34.883Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T03:45:18.400Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T03:45:19.520Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:00:08.771Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:00:48.225Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:16:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] { status: 'true' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:02:55.702Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:03:48.968Z'
+}
+{
+  message: 'Cannot convert object to primitive value',
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at updateStatus (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\api\\users\\users.service.js:16:24)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] { status: 'true' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:03:57.058Z'
+}
+{
+  message: "Post with id: 65fe15925bd1caee69d43c90', 'NOT_FOUND', 'feeds.service.readById",
+  err: { kind: 'UNHANDLED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feeds/post/65fe15925bd1caee69d43c90',
+    auth: 'Bearer eyJ',
+    body: { status: 'true' }
+  },
+  level: 'error',
+  timestamp: '2024-03-23T04:05:23.194Z'
+}
+{
+  message: "Post with id: 65fe15925bd1caee69d43c90', 'NOT_FOUND', 'feeds.service.readById",
+  err: { kind: 'UNHANDLED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feeds/post/65fe15925bd1caee69d43c90',
+    auth: 'Bearer eyJ',
+    body: { status: true }
+  },
+  level: 'error',
+  timestamp: '2024-03-23T04:06:18.090Z'
+}
+{
+  message: "Post with id: 65fb70aefa40c9e4ddaf9ef2', 'NOT_FOUND', 'feeds.service.readById",
+  err: { kind: 'UNHANDLED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feeds/post/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'yeni değer yeni değer' }
+  },
+  level: 'error',
+  timestamp: '2024-03-23T04:06:45.929Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:07:09.439Z'
+}
+{
+  message: "Post with id: 65fb70aefa40c9e4ddaf9ef2', 'NOT_FOUND', 'feeds.service.readById",
+  err: { kind: 'UNHANDLED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feeds/post/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'yeni değer yeni değer' }
+  },
+  level: 'error',
+  timestamp: '2024-03-23T04:07:12.170Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:07:28.629Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:16:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] { status: 'true' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:07:36.495Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:16:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] { status: 'true' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:07:42.369Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:16:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] { status: 'true' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:07:47.065Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:16:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:08:13.402Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:16:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:09:00.864Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:09:18.739Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:17:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:09:26.855Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:09:33.822Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:17:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:09:36.533Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:10:23.268Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:10:32.807Z'
+}
+{
+  message: 'UserId is required',
+  err: { kind: 'VALIDATION', source: 'validations.getUserId' },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:10:33.923Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:10:58.179Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:11:01.807Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:11:19.730Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:11:43.399Z'
+}
+{
+  message: 'UserId is required',
+  err: { kind: 'VALIDATION', source: 'validations.getUserId' },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:11:43.859Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:12:03.955Z'
+}
+{
+  message: 'UserId is required',
+  err: { kind: 'VALIDATION', source: 'validations.getUserId' },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:12:04.156Z'
+}
+{
+  message: 'UserId is required',
+  err: { kind: 'VALIDATION', source: 'validations.getUserId' },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:12:05.781Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:12:13.916Z'
+}
+{
+  message: 'UserId is required',
+  err: { kind: 'VALIDATION', source: 'validations.getUserId' },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:12:31.777Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:13:01.468Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:13:05.297Z'
+}
+{
+  message: "Post with id: 65fe15925bd1caee69d43c90', 'NOT_FOUND', 'feeds.service.readById",
+  err: { kind: 'UNHANDLED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feeds/post/65fe15925bd1caee69d43c90',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği333',
+      image: 'images/af9d999e-437b-438a-8a9e-620359b495c4'
+    }
+  },
+  level: 'error',
+  timestamp: '2024-03-23T04:13:07.453Z'
+}
+{
+  message: "Post with id: 65fe15925bd1caee69d43c90', 'NOT_FOUND', 'feeds.service.readById",
+  err: { kind: 'UNHANDLED', source: 'Unknown' },
+  req: {
+    path: 'PUT /v1/feeds/post/65fe15925bd1caee69d43c90',
+    auth: 'Bearer eyJ',
+    body: [Object: null prototype] {
+      title: 'Deneme',
+      content: 'Deneme içeriği333',
+      image: 'images/af9d999e-437b-438a-8a9e-620359b495c4'
+    }
+  },
+  level: 'error',
+  timestamp: '2024-03-23T04:13:08.371Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:13:58.286Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:17:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:14:00.337Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:14:24.771Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:17:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:14:26.664Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:17:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:14:31.784Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:14:34.990Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:17:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:14:36.818Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:17:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:14:49.306Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:15:06.019Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.038Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.044Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.046Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.048Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.263Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.265Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.267Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.269Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.481Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.483Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.484Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.486Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.699Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.701Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.703Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.704Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.918Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.919Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.921Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:06.922Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.140Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.142Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.143Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.145Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.359Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.360Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.361Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.363Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.581Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.582Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.583Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.585Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.800Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.801Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.803Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:07.804Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.021Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.023Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.024Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.026Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.244Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.246Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.247Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.248Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.463Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.464Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.465Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.466Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.684Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.686Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.687Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.688Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.906Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.908Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.909Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:08.910Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:09.125Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:09.127Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:09.128Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:09.129Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:09.347Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/version' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:09.349Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:09.352Z'
+}
+{
+  message: 'API Key Required',
+  err: { kind: 'UNAUTHORIZED', source: 'guardApiKey' },
+  req: { path: 'GET /json/list' },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:09.354Z'
+}
+{
+  message: "Cannot read properties of undefined (reading 'toString')",
+  err: {
+    kind: 'UNAUTHORIZED',
+    source: 'at guardIsOwner (C:\\Users\\malpy\\Desktop\\Yeni klasör\\NodeJS-API\\app\\shared\\utils\\authorization.utils.js:17:31)'
+  },
+  req: {
+    path: 'PUT /v1/users/user/65fb70aefa40c9e4ddaf9ef2',
+    auth: 'Bearer eyJ',
+    body: { status: 'Yeni değer yeni değer' }
+  },
+  level: 'warn',
+  timestamp: '2024-03-23T04:15:10.061Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:16:22.342Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:16:28.480Z'
+}
+{
+  message: 'Listening on 3000, development environment',
+  level: 'info',
+  timestamp: '2024-03-23T04:16:38.749Z'
+}

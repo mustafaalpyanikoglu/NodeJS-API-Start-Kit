@@ -1,8 +1,7 @@
 const multer = require('multer');
 const {v4: uuid4} = require('uuid');
 
-const shared = require('../shared.index');
-const constants = shared.constants;
+const constants = require('../constants/constants');
 
 const Storage = multer.diskStorage({
   destination: function (req, file, cb) {

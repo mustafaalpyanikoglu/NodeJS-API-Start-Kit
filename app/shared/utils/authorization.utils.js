@@ -13,7 +13,8 @@ const extractUserId = (token) => {
 };
 
 const guardIsOwner = (userId, item, source) => {
-  if (userId !== item.userId && userId !== item.id) {
+  console.log(item);
+  if (userId !== item.creator.toString()) {
     throw new AppError('User is not the owner', 'FORBIDDEN', source);
   }
 };

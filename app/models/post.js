@@ -16,11 +16,11 @@ const postSchema = new Schema(
       required: true,
     },
     creator: {
-      type: Object,
+      type: Schema.Types.ObjectId,
+      ref: 'User',
       required: true,
     },
   },
-  // otomatik olarak createdDate ve updatedDate bilgileri ekler
   {timestamps: true},
 );
 
